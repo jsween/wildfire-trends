@@ -1,0 +1,15 @@
+# --- Data handling ---
+pandas>=2.2.0
+requests>=2.31.0
+
+# --- Google Cloud ---
+google-cloud-bigquery>=3.25.0
+google-cloud-storage>=2.18.0
+pandas-gbq>=0.23.0          # query BigQuery directly into pandas DataFrames
+
+# --- Config / environment ---
+python-dotenv>=1.0.0        # load GCP project config / credentials paths from .env
+
+# --- Optional: only needed if working with polygon geometry (e.g. NIFC GeoJSON perimeters) ---
+# geopandas>=0.14.0
+# shapely>=2.0.0
